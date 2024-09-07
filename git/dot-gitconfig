@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Enrico Sintoni
+	email = enrico.sintoni.ra@gmail.com
+	signingkey = 16CA63BFA4E1755A
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = master
