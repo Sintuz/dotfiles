@@ -1,6 +1,8 @@
 function fish_greeting
-	# figlet "Hello!" | cowsay -f tux -n | lolcat
-	echo "$(__merge "$(figlet Hello! | cowsay -f tux -n)" "$(weather)")" | lolcat
+	if test "$(tput cols)" -ge 140
+		# figlet "Hello!" | cowsay -f tux -n | lolcat
+		echo "$(__merge "$(figlet Hello! | cowsay -f tux -n)" "$(weather)")" | lolcat
+	end
 end
 
 function __merge
