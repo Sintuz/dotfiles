@@ -1,0 +1,26 @@
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+HISTFILE="$HOME/.local/share/bash/history"
+shopt -u histappend
+HISTSIZE=
+HISTFILESIZE=
+HISTIGNORE='exit:history:l[als]'
+HISTCONTROL='ignoreboth:erasedups'
+
+shopt -s checkwinsize
+
+term_prompt() {
+	local ORANGE='\e[38;5;202m'
+	local RED='\e[38;5;196m'
+	local YELLOW='\e[38;5;226m'
+	local GREEN='\e[38;5;82m'
+	local NORMAL='\e[0m'
+	local BOLD='\e[1m'
+	PS1="$ORANGE$BOLD\u$NORMAL$RED@$YELLOW\h $GREEN\w $NORMAL\$ "
+}
+
+term_prompt
+
+if [ -f ~/.bash_aliases ]; then
+	. ~/.bash_aliases
+fi
