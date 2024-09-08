@@ -1,0 +1,10 @@
+\.svn
+_darcs
+\.hg
+
+\.git
+\.gitmodules
+
+^/README.*
+^/LICENSE.*
+^/COPYING
