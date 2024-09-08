@@ -14,3 +14,4 @@ alias ls "colorls --sd"
 alias la "colorls -lAog --time-style=\"+%Y/%m/%d %H:%M:%S\" --sd"
 
 alias fishconf "nvim ~/.config/fish/config.fish"
+alias dotconf "cd ~/repos/dotfiles"
