@@ -3,9 +3,46 @@
 	name = Enrico Sintoni
 	email = enrico.sintoni.ra@gmail.com
 	signingkey = 16CA63BFA4E1755A
-[commit]
-	gpgsign = true
+[core]
+	fileMode = false
+	editor = nvim
+	autocrlf = input
+	trustctime = false
+	excludesfile = /Users/sintuz/.gitignore
+	untrackedCache = true
 [init]
 	defaultBranch = master
+
+[commit]
+	gpgsign = true
 [push]
 	autoSetupRemote = true
+	default = current
+	followTags = true
+[pull]
+	ff = only
+	default = current
+[merge]
+	tool = nvimdiff
+	log = true
+[diff]
+	tool = nvimdiff
+	renames = copies
+[difftool]
+	prompt = false
+[branch]
+	sort = -committerdate
+[checkout]
+	defaultRemote = origin
+
+[log]
+	date = human
+[help]
+	autoCorrect = 1
+[protocol]
+	version = 2
+[url "git@github.com:"]
+	insteadOf = "https://github.com/"
+
+[url "git://gist.github.com/"]
+	insteadOf = "gist:"
