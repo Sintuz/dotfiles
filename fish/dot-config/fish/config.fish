@@ -15,5 +15,9 @@ alias ls "colorls --sd"
 alias ll "ls -log --time-style=\"+%Y/%m/%d %H:%M:%S\" --sd"
 alias la "ls -lAog --time-style=\"+%Y/%m/%d %H:%M:%S\" --sd"
 
+if type -q bat
+	alias cat 'bat'
+end
+
 alias fishconf "nvim ~/.config/fish/config.fish"
 alias dotconf "cd ~/repos/dotfiles"
