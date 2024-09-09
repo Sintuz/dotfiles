@@ -12,7 +12,7 @@ return {
             enabled = true,
             message_template = " <summary> • <date> • <author>",
             date_format = "%Y-%m-%d %H:%M:%S",
-            display_virtual_text = false,
+            delay = 50
         },
 
     }
