@@ -14,4 +14,13 @@ return {
         },
         version = '^1.0.0', -- optional: only update when a new 1.x version is released
     },
+    {
+        'nvim-lualine/lualine.nvim',
+        dependencies = { 'nvim-tree/nvim-web-devicons' },
+        config = function ()
+            require('lualine').setup({
+                options = { theme = 'codedark' }
+            })
+        end
+    }
 }
