@@ -6,12 +6,19 @@
 [core]
 	fileMode = false
 	editor = nvim
+    pager = delta
 	autocrlf = input
 	trustctime = false
 	excludesfile = /Users/sintuz/.gitignore
 	untrackedCache = true
 [init]
 	defaultBranch = master
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true
+    side-by-side = true
+    line-numbers = true
 
 [commit]
 	gpgsign = true
@@ -25,9 +32,10 @@
 [merge]
 	tool = nvimdiff
 	log = true
+    conflictstyle = diff3
 [diff]
-	tool = nvimdiff
 	renames = copies
+    colorMoved = default
 [difftool]
 	prompt = false
 [branch]
