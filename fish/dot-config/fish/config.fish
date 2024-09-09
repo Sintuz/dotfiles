@@ -23,5 +23,9 @@ if type -q bat
 	alias cat "bat"
 end
 
+if type -q trash
+    alias rm trash
+end
+
 alias fishconf "nvim ~/.config/fish/config.fish"
 alias dotconf "cd ~/repos/dotfiles"
