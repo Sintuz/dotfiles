@@ -2,7 +2,7 @@ return {
     {
         'romgrk/barbar.nvim',
         dependencies = {
-            'lewis6991/gitsigns.nvim', -- OPTIONAL: for git status
+            'lewis6991/gitsigns.nvim',     -- OPTIONAL: for git status
             'nvim-tree/nvim-web-devicons', -- OPTIONAL: for file icons
         },
         init = function() vim.g.barbar_auto_setup = false end,
@@ -18,11 +18,15 @@ return {
         'nvim-lualine/lualine.nvim',
         dependencies = { 'nvim-tree/nvim-web-devicons' },
         config = function()
-            local git_blame = require('gitblame')
             require('lualine').setup({
                 options = { theme = 'codedark' },
                 sections = {
-                    lualine_c = { { git_blame.get_current_blame_text, cond = git_blame.is_blame_text_available } }
+                    lualine_a = { 'mode' },
+                    lualine_b = { 'branch', 'diff', 'diagnostics' },
+                    lualine_c = { 'filename' },
+                    lualine_x = { 'encoding', 'fileformat', 'filetype' },
+                    lualine_y = { 'progress' },
+                    lualine_z = { 'location' }
                 }
             })
         end
