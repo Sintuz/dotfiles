@@ -19,6 +19,7 @@
     navigate = true
     side-by-side = true
     line-numbers = true
+    features = catppuccin-mocha
 
 [commit]
 	gpgsign = true
@@ -54,3 +55,6 @@
 
 [url "git://gist.github.com/"]
 	insteadOf = "gist:"
+
+[include]
+    path = ~/.config/delta/themes/catppuccin.gitconfig
