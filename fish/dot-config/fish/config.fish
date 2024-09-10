@@ -29,3 +29,5 @@ end
 
 alias fishconf "nvim ~/.config/fish/config.fish"
 alias dotconf "cd ~/repos/dotfiles"
+
+source '.config/fish/functions/tmux-window-name.fish'
