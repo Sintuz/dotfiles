@@ -22,7 +22,14 @@ return {
                 sections = {
                     lualine_a = { 'mode' },
                     lualine_b = { 'branch', 'diff', 'diagnostics' },
-                    lualine_c = { 'filename', 'lsp_progress' },
+                    lualine_c = { 'filename', 'lsp_progress', '%=',
+                        {
+                            "harpoon2",
+                            indicators = { "a", "s", "q", "w" },
+                            active_indicators = { "A", "S", "Q", "W" },
+                            _separator = " ",
+                        }
+                    },
                     lualine_x = { 'encoding', 'fileformat', 'filetype' },
                     lualine_y = { 'progress' },
                     lualine_z = { 'location' }
@@ -31,4 +38,13 @@ return {
         end
     },
     { 'arkav/lualine-lsp-progress' },
+    {
+        "letieu/harpoon-lualine",
+        dependencies = {
+            {
+                "ThePrimeagen/harpoon",
+                branch = "harpoon2",
+            }
+        },
+    }
 }
