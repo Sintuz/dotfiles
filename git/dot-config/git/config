@@ -9,7 +9,7 @@
     pager = delta
 	autocrlf = input
 	trustctime = false
-	excludesfile = /Users/sintuz/.gitignore
+	excludesfile = ~/.config/git/.gitignore
 	untrackedCache = true
 [init]
 	defaultBranch = master
