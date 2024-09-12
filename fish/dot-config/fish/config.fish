@@ -27,7 +27,8 @@ if type -q trash
     alias rm trash
 end
 
-alias fishconf "nvim ~/.config/fish/config.fish"
-alias dotconf "cd ~/repos/dotfiles"
+if type -q tmuxinator
+    alias mux tmuxinator
+end
 
 source ~/.config/fish/functions/tmux-window-name.fish
