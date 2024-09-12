@@ -6,6 +6,7 @@ package extract
 package https://github.com/PatrickF1/colored_man_pages.fish
 package https://github.com/PatrickF1/fzf.fish
 package https://github.com/Sintuz/omf-plugin-weather
+package https://github.com/catppuccin/fish
 package https://github.com/jhillyerd/plugin-git
 package https://github.com/jorgebucaran/autopair.fish
 package https://github.com/zzamboni/plugin-cdb
@@ -15,4 +16,5 @@ package spark
 package tab
 package wttr
 theme bobthefish
+theme catppuccin
 theme default

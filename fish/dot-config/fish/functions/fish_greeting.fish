@@ -1,5 +1,5 @@
 function fish_greeting
-	if test "$(tput cols)" -ge 140
+	if test -z "$TMUX" -a "$(tput cols)" -ge 140
 		# figlet "Hello!" | cowsay -f tux -n | lolcat
 		echo "$(__merge "$(figlet Hello! | cowsay -f tux -n)" "$(weather)")" | lolcat
 	end
