@@ -31,3 +31,5 @@ if type -q tmuxinator
 end
 
 source ~/.config/fish/functions/tmux-window-name.fish
+
+source ~/.local/share/asdf/plugins/golang/set-env.fish

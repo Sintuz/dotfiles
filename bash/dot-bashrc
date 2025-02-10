@@ -25,6 +25,18 @@ if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
 fi
 
+export ASDF_CONFIG_FILE="$HOME/.config/asdf/asdfrc"
+export ASDF_DATA_DIR="$HOME/.local/share/asdf"
+export ASDF_DEFAULT_TOOL_VERSIONS_FILENAME="$HOME/.local/share/asdf/tool-versions"
+export ASDF_GEM_DEFAULT_PACKAGES_FILE="$HOME/.config/gem/default-gems"
+export ASDF_GOLANG_DEFAULT_PACKAGES_FILE="$HOME/.config/go/default-golang-pkgs"
+export ASDF_NPM_DEFAULT_PACKAGES_FILE="$HOME/.config/npm/default-npm-packages"
+export ASDF_PYTHON_DEFAULT_PACKAGES_FILE="$HOME/.config/pip/default-python-packages"
+export BUNDLE_CACHE_PATH="$HOME/.cache/bundle"
+export EDITOR="nvim"
+export LESSHISTFILE="/Users/sintuz/\x2elocal/state/less/history"
+export NPM_CONFIG_USERCONFIG="/Users/sintuz/\x2econfig/npm/config"
+export PYTHON_HISTORY="/Users/sintuz/\x2elocal/state/python/history"
 export FZF_DEFAULT_OPTS=" \
 --color=spinner:#f5e0dc,hl:#f38ba8 \
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \

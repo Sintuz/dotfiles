@@ -4,6 +4,7 @@ SETUVAR --export ASDF_CONFIG_FILE:/Users/sintuz/\x2econfig/asdf/asdfrc
 SETUVAR --export ASDF_DATA_DIR:/Users/sintuz/\x2elocal/share/asdf
 SETUVAR --export ASDF_DEFAULT_TOOL_VERSIONS_FILENAME:\x2elocal/share/asdf/tool\x2dversions
 SETUVAR --export ASDF_GEM_DEFAULT_PACKAGES_FILE:/Users/sintuz/\x2econfig/gem/default\x2dgems
+SETUVAR --export ASDF_GOLANG_DEFAULT_PACKAGES_FILE:/Users/sintuz/\x2econfig/go/default\x2dgolang\x2dpkgs
 SETUVAR --export ASDF_NPM_DEFAULT_PACKAGES_FILE:/Users/sintuz/\x2econfig/npm/default\x2dnpm\x2dpackages
 SETUVAR --export ASDF_PYTHON_DEFAULT_PACKAGES_FILE:/Users/sintuz/\x2econfig/pip/default\x2dpython\x2dpackages
 SETUVAR --export BUNDLE_CACHE_PATH:/Users/sintuz/\x2ecache/bundle
