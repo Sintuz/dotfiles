@@ -1,8 +1,17 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export ASDF_CONFIG_FILE:/Users/sintuz/\x2econfig/asdf/asdfrc
+SETUVAR --export ASDF_DATA_DIR:/Users/sintuz/\x2elocal/share/asdf
+SETUVAR --export ASDF_DEFAULT_TOOL_VERSIONS_FILENAME:\x2elocal/share/asdf/tool\x2dversions
+SETUVAR --export ASDF_GEM_DEFAULT_PACKAGES_FILE:/Users/sintuz/\x2econfig/gem/default\x2dgems
+SETUVAR --export ASDF_NPM_DEFAULT_PACKAGES_FILE:/Users/sintuz/\x2econfig/npm/default\x2dnpm\x2dpackages
+SETUVAR --export ASDF_PYTHON_DEFAULT_PACKAGES_FILE:/Users/sintuz/\x2econfig/pip/default\x2dpython\x2dpackages
+SETUVAR --export BUNDLE_CACHE_PATH:/Users/sintuz/\x2ecache/bundle
 SETUVAR --export EDITOR:nvim
 SETUVAR --export FZF_DEFAULT_OPTS:\x2d\x2dcolor\x3dspinner\x3a\x23f5e0dc\x2chl\x3a\x23f38ba8\x20\x2d\x2dcolor\x3dfg\x3a\x23cdd6f4\x2cheader\x3a\x23f38ba8\x2cinfo\x3a\x23cba6f7\x2cpointer\x3a\x23f5e0dc\x20\x2d\x2dcolor\x3dmarker\x3a\x23b4befe\x2cfg\x2b\x3a\x23cdd6f4\x2cprompt\x3a\x23cba6f7\x2chl\x2b\x3a\x23f38ba8\x20\x2d\x2dcolor\x3dselected\x2dbg\x3a\x2345475a\x20\x2d\x2dmulti
+SETUVAR --export LESSHISTFILE:/Users/sintuz/\x2elocal/state/less/history
+SETUVAR --export NPM_CONFIG_USERCONFIG:/Users/sintuz/\x2econfig/npm/config
+SETUVAR --export PYTHON_HISTORY:/Users/sintuz/\x2elocal/state/python/history
 SETUVAR --export WGETRC:/Users/sintuz/\x2econfig/wget/wgetrc
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:brblack
@@ -33,4 +42,4 @@ SETUVAR fish_pager_color_description:yellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/Users/sintuz/\x2edocker/bin\x1e/opt/homebrew/bin
+SETUVAR fish_user_paths:/Users/sintuz/\x2elocal/share/asdf/shims\x1e/Users/sintuz/\x2edocker/bin\x1e/opt/homebrew/bin

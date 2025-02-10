@@ -3,7 +3,6 @@ if status is-interactive
 end
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
-source /opt/homebrew/opt/asdf/libexec/asdf.fish
 
 string match -q "$TERM_PROGRAM" "vscode"
 and . (code --locate-shell-integration-path fish)
